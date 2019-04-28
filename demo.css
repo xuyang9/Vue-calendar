@@ -1,0 +1,73 @@
+
+
+.calendar{
+    width : 500px;
+    margin-left: 100px;
+}
+
+.date-header {
+    width: 100%;
+    display: flex;
+    line-height: 30px;
+}
+
+.prev-month,
+.next-month{
+    border: 15px solid transparent;
+    width: 0;
+    height: 0;
+    cursor: pointer;
+}
+
+.prev-month{
+    border-right-color: #007fff;  
+}
+
+.next-month {
+    border-left-color: #007fff;  
+}
+
+.show-date{
+    flex: 1;
+    text-align: center;
+    color: #007fff;
+}
+
+.week-header {
+    display: flex;
+}
+
+.week-header div{
+    flex: 1;
+    text-align: center;
+    line-height: 30px;
+    background-color: #007fff;
+    color: #fff;
+    font-weight: 600;
+}
+
+.week-day {
+    width: 100%;
+}
+.every-day {
+    display: inline-block;
+    width: 14.28%;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+.c{
+    color: #ccc;
+}
+.active{
+    background-color: #007fff;
+    color: #fff;
+}
+.cli{
+    display: inline-block;
+    width: 14.28%;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    outline: 1px solid #007fff;
+}
